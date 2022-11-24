@@ -6,9 +6,12 @@ a = -3 b = 9 -> да
 */
 
 int userNumber1 = new int();
-Console.WriteLine("Введите число");
 int userNumber2 = new int();
 Console.WriteLine("Введите число");
-userNumber1 = Convert.ToInt32(Console.ReadLine());
+    userNumber1 = Convert.ToInt32(Console.ReadLine());
+    userNumber2 = Convert.ToInt32(Console.ReadLine());
 int result = userNumber1 * userNumber1;
-Console.WriteLine(result);
+if  (result == userNumber2)
+    Console.WriteLine("ДА");
+else    
+{Console.WriteLine("Нет");}
