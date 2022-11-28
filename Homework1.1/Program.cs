@@ -18,4 +18,4 @@ int max = 0;
     
 }
 
-Console.WriteLine(max);
+Console.WriteLine("{0} наибольшее число", max);
