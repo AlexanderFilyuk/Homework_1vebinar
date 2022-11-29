@@ -13,7 +13,7 @@ int GetRandomNumberInRange(int start, int end)
     result = new Random().Next(start,end + 1);
     return result;
 }
-int GetMaxDigitFromNumber(int number)
+int GetMaxDigitFromNumber(int number)        //берет максимальное из двух чисел
 {
     int max = number / 10;
     int secondDigit = number % 10;
