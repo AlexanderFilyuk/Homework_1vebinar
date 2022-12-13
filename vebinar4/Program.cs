@@ -25,7 +25,7 @@ int getNumberFromUser(string message)
 }
 
 int userNumber = getNumberFromUser("Введите А для подсчета суммы 1...А");
-int sum = SumofRange(1, userNumber);
+int sum = sumofRange(1, userNumber);
 Console.WriteLine($"Сумма чисел от 1..{userNumber} = {sum}");
 
 
