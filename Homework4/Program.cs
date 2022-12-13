@@ -39,4 +39,3 @@ int[] array = CreatArray(N, min, max);
 PrintArray(array);
 
 
-
