@@ -33,7 +33,7 @@ int[] inverseArray(int[] array)
 {
     for (int i =0; i < array.Length; i++)
     {
-        array[i] = -array[i];
+        array[i] = -array[i];    // меняем знак элемента
     }
     return array;
 }
