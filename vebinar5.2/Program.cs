@@ -13,7 +13,7 @@ int[] generateRandomArray(int length, int startPoint, int endPoint)
     } 
     return resultArray;
 }
-void printArray(int[] array, string nameOfArray)
+void printArray(int[] array)
 {
     Console.Write("[");
     for (int i = 0; i < array.Length; i++)
@@ -40,8 +40,9 @@ int findUserNumberInArray(int userNumber, int[] array)
     }
     return index;
 }
-int[] array = generateRandomArray(10, 0, 100);
+int[] array = generateRandomArray(10, 1, 100);
 printArray(array);
+Console.WriteLine();
 Console.WriteLine("Введите число ");
 userNumber = Convert.ToInt32(Console.ReadLine());
 int index = findUserNumberInArray(userNumber, array);
